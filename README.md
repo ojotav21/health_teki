@@ -15,7 +15,7 @@
 <h2 align="center" id="#objetivo">Objetivo</h2>
     <p align="center">Usando do ema da tecnologia na pandemia, fizemos pesquisas e, utilizamos de fontes renomadas para fundamentar nossas ideias.</p>
 <br>
-   <a href="#" target="_blank"><img src="https://user-images.githubusercontent.com/60045344/134165062-540da167-08bc-4e99-a9d8-febd619bf273.png"/></a>
+   <a href="https://ojotav21.github.io/health_teki/" target="_blank"><img src="https://user-images.githubusercontent.com/60045344/134165062-540da167-08bc-4e99-a9d8-febd619bf273.png"/></a>
    
 <h2 align="center" id="#autor">Autores</h2>
    <p align="center" >Gustavo Henrique Silva Pinto</p>
@@ -28,5 +28,5 @@
    <p align="center" >Inspirado por Bedimcode</p>
 </ul>
 <br>
-<h1  id="acessar"align="center"><a href="https://ojotav21.github.io/quiz-js/" target="_blank">Clique e acesse</a></h1>
+<h1  id="acessar"align="center"><a href="https://ojotav21.github.io/health_teki/" target="_blank">Clique e acesse</a></h1>
 <br>
