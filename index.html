@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="./assets/ico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./assets/ico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./assets/ico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./assets/ico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./assets/ico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./assets/ico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./assets/ico/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./assets/ico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/ico/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./assets/ico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/ico/favicon-16x16.png">
+        <link rel="manifest" href="./assets/ico/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="./assets/ico/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <!-- BOX ICONS -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Health Teki</title>
+    </head>
+    <body>
+
+        <!-- SCROLL TOP -->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!-- HEADER -->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Health Teki</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link" data-lang-str="NavProjeto">Projeto</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link" data-lang-str="NavSessaoProblema">Os problemas das redes sociais</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+
+                        <li><a class='bx' type="button" id="brasil" style="margin-left: 8px; cursor: pointer;"   name="btn-translate" data-lang="pt-br"><img src="assets/img/brasil.png"></a></li>
+
+                        <li><a class='bx' type="button" id="eua" style="margin-left: 8px; cursor: pointer;" name="btn-translate" data-lang="en" ><img src="assets/img/estados-unidos.png"></a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!-- HOME -->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Heath Teki</h1>
+                        <h2 class="home__subtitle" data-lang-str="Slogan">Fazendo o preciso para quem precisa.</h2>
+                        <a href="#" class="button" data-lang-str="BotãoSaibaMais">Saiba mais</a>
+                    </div>
+    
+                    <img src="assets/img/yellow.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!-- ABOUT -->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial" data-lang-str="NossoProjeto">Nosso projeto</span>
+                        <h2 class="section-title about__initial" data-lang-str="TituloSessaoProjeto">Mostrando o que os olhos não podem ver</h2>
+                        <p class="about__description" data-lang-str="DescricaoSessaoProjeto">As redes sociais podem ser um lugar de extrema complexidade. Tendo isso em mente, diversas pessoas não conhecem seus males e como eles podem impactar em sua vida. O simulacro virtual se torna uma realidade distorcida, fragmentada.</p>
+                        <a href="./blog/problema.html" class="button" data-lang-str="BotaoSessaoProjeto">Leia mais</a>
+                    </div>
+
+                    <img src="assets/img/redesocial.jpeg" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!-- CONTACT US -->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial"data-lang-str="VamosConversar">Vamos conversar!</span>
+                        <h2 class="section-title contact__initial" data-lang-str="TituloSessaoProblemas">Os problemas das redes sociais</h2>
+                        <p class="contact__description" data-lang-str="DescricaoSessaoProblemas">As redes sociais estão totalmente ligadas ao avanço tecnológico. Quanto mais a tecnologia avança, mais o desejo de consumir de consumir conteúdos na internet aumenta.</p>
+                        <a href="./blog/insta.html" class="button" data-lang-str="BotaoSessaoProblemas">Leia mais</a>
+                    </div>
+
+                
+                </div>
+            </section>
+        </main>
+        <style>
+            html::-webkit-scrollbar
+            { 
+                display: none; 
+            }
+        </style>
+
+        <!-- FOOTER -->
+        <footer class="footer section bd-container">
+        
+            <p class="footer__copy">Health Teki&#169; 2021</p>
+        </footer>
+
+        <!-- SCROLL REVEAL -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- MAIN JS -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
