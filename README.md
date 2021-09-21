@@ -13,7 +13,7 @@
  <a href="#acessar">Acessar</a>
 </p>
 <h2 align="center" id="#objetivo">Objetivo</h2>
-    <p align="center">Usando do ema da tecnologia na pandemia, fizemos pesquisas e, utilizamos de fontes renomadas para fundamentar nossas ideias.</p>
+    <p align="center">Usando do tema da tecnologia na pandemia, fizemos pesquisas e, utilizamos de fontes renomadas para fundamentar nossas ideias.</p>
 <br>
    <a href="https://ojotav21.github.io/health_teki/" target="_blank"><img src="https://user-images.githubusercontent.com/60045344/134165062-540da167-08bc-4e99-a9d8-febd619bf273.png"/></a>
    
